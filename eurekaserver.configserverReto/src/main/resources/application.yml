@@ -1,0 +1,9 @@
+server:
+ port: 8888
+spring:
+ aplication:
+  name: myvalue
+ cloud:
+  config:
+   enabled: true
+   uri: http://localhost:8888
